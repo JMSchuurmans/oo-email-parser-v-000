@@ -3,6 +3,10 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 
-class EmailParser(x)
+
+
+class EmailParser
+
+  attr_accessor :email
 
 end
