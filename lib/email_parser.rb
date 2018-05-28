@@ -7,10 +7,12 @@
 
 class EmailParser
 
-  attr_accessor :email
+  attr_accessor :emails
 
-  def initialize(email)
+  @@all = []
 
+  def initialize(emails)
+    @@all << emails
   end
 
   def parse
